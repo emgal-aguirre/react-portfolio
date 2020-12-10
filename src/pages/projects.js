@@ -1,7 +1,12 @@
 import React from 'react';
+import Wrapper from '../components/wrapper';
 
 function Projects() {
-  return <div>Projects</div>;
+  return (
+    <Wrapper>
+      <div>Projects</div>;
+    </Wrapper>
+  );
 }
 
 export default Projects;

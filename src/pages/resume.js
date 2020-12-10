@@ -1,7 +1,11 @@
 import React from 'react';
-
+import Wrapper from '../components/wrapper';
 function Resume() {
-  return <div>Resume</div>;
+  return (
+    <Wrapper>
+      <div>Resume</div>;
+    </Wrapper>
+  );
 }
 
 export default Resume;

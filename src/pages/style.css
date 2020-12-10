@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav.navbar.navbar-default {
+  margin-bottom: 0;
+}
+
+/* navbar */
+.navbar {
+  color: black;
+  padding-top: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+.name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: red;
+}
+
+.navbar .nav-item {
+  font-size: 16px;
+  font-weight: 300;
+  color: Red;
+}
+
+small {
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
+}
