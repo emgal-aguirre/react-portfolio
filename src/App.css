@@ -72,3 +72,32 @@
   min-height: 600px;
   max-height: 1000px;
 }
+
+.square_blue {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  margin-top: 10px;
+  background: #0d50ff;
+}
+
+.header {
+  padding-top: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.contact-card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 500px;
+  max-width: 600px;
+}

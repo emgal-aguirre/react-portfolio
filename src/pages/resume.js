@@ -1,9 +1,11 @@
 import React from 'react';
 import Wrapper from '../components/wrapper';
+
 function Resume() {
   return (
     <Wrapper>
-      <div>Resume</div>;
+      <h4 className="text-center header">Resume</h4>
+      <p className="text-center">Check out some of my relevant experience! </p>
     </Wrapper>
   );
 }
