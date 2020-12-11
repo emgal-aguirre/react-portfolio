@@ -166,5 +166,12 @@ p {
   width: 100px;
   height: 30px;
   border-radius: 12px;
+  border-color: #0d50ff;
   color: white;
+}
+
+.btn-text {
+  color: white;
+  margin-top: -10px;
+  display: inline-block;
 }

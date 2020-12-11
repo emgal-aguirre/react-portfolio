@@ -2,6 +2,8 @@ import React from 'react';
 import Wrapper from '../components/wrapper';
 import '../App.css';
 
+// btn not working
+
 function Resume() {
   return (
     <Wrapper>
@@ -9,12 +11,13 @@ function Resume() {
       <p className="text-center">
         Check out some of my relevant experience.
         <a
-          href="Assets/Emily Aguirre _ Technical Resume .pdf"
+          href="../assets/emilyAguirreResume.pdf"
           download
           class="btn resume-btn download"
           type="button"
+          style={{ background: '#0d50ff' }}
         >
-          <p> Download CV</p>
+          <small className="btn-text">download</small>
         </a>
       </p>
       {/* eduction */}
