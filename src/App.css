@@ -92,7 +92,8 @@ p {
   font-size: 15px;
 }
 
-.contact-card {
+.contact-card,
+.resume-card {
   margin: 0 auto;
   float: none;
   margin-bottom: 10px;
