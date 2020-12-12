@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Wrapper from '../components/wrapper';
 import { Card } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
+import Box from '../components/box.css';
 
 const Projects = () => {
   const projectInfo = [
@@ -25,7 +26,7 @@ const Projects = () => {
 
   const renderCard = (card, index) => {
     return (
-      <Card style={{ width: '18rem' }} key={index}>
+      <Card style={{ width: '18rem' }} key={index} className="box">
         <Card.Img variant="top" src="holder.js/100px180" src={card.image} />
         <Card.Body>
           <Card.Title>{card.title}</Card.Title>
@@ -39,7 +40,7 @@ const Projects = () => {
     <Wrapper>
       <h4 className="text-center header">Projects</h4>
       <p className="text-center">Check out some of my projects down below!</p>
-      <div>{projectInfo.map(renderCard)}</div>;
+      <div className="grid">{projectInfo.map(renderCard)}</div>;
     </Wrapper>
   );
 };
