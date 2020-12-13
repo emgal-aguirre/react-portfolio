@@ -8,8 +8,8 @@ const Projects = () => {
   const projectInfo = [
     {
       image:
-        'https://500px.com/photo/1016968550/Circumambulation-by-Raimondo-Jereb/',
-      title: 'Emily',
+        'https://github.com/emgal-aguirre/react-portfolio/blob/main/portfolio/src/Assets/images/recipe-square.jpg',
+      title: 'Random Recipe Generator',
       text: 'Here is my text',
     },
     {
@@ -30,6 +30,7 @@ const Projects = () => {
         <Card.Img variant="top" src="holder.js/100px180" src={card.image} />
         <Card.Body>
           <Card.Title>{card.title}</Card.Title>
+          <Card.Text>{card.text}</Card.Text>
           <Card.Text>{card.text}</Card.Text>
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
