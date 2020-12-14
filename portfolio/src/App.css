@@ -69,8 +69,9 @@
 .wrapper {
   background-color: #e6dacd;
   margin: 0;
+  padding-bottom: 50px;
   min-height: 600px;
-  max-height: 100%;
+  max-height: 2000px;
 }
 
 .square_blue {
@@ -151,6 +152,9 @@ p {
   margin-bottom: 2px;
   font-family: poppins;
 }
+.blue {
+  color: #0d50ff;
+}
 
 .col-centered {
   text-align: center;
@@ -174,4 +178,11 @@ p {
   color: white;
   margin-top: -10px;
   display: inline-block;
+}
+
+.left {
+  text-align: left;
+}
+.card-link {
+  font-size: 12px;
 }

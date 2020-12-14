@@ -1,27 +1,79 @@
 import React, { Component } from 'react';
 import Wrapper from '../components/wrapper';
 import { Card } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
 import Box from '../components/box.css';
 
 const Projects = () => {
   const projectInfo = [
     {
-      image:
-        'https://github.com/emgal-aguirre/react-portfolio/blob/main/portfolio/src/Assets/images/recipe-square.jpg',
+      image: 'portfolio/src/Assets/images/recipe-square.jpg',
       title: 'Random Recipe Generator',
-      text: 'Here is my text',
+      descriptionTitle: 'Description',
+      description:
+        'A simple script generates a random recipe based on the meal type the user selected',
+      technologiesTitle: 'Technologies',
+      technologies:
+        'HTML 5, CSS, Materialize CDN, JavaScript, JQuery, APIs Used: Edamam, Moment.Js',
+      link: 'https://emgal-aguirre.github.io/Recipe-Generator/',
+      github: 'https://github.com/emgal-aguirre/Recipe-Generator',
     },
     {
-      image:
-        'https://500px.com/photo/1016968550/Circumambulation-by-Raimondo-Jereb/',
-      title: 'Carlos',
-      text: 'Here is my text',
+      image: 'portfolio/src/Assets/images/listly-square.png',
+      title: 'Listly App',
+      descriptionTitle: 'Description',
+      description:
+        'Users can keep their to do list organized by entering a project name, discription and urgency level.',
+      technologiesTitle: 'Technologies',
+      technologies: 'HTML 5, CSS, Bootstrap and JavaScript, SQL',
+      link: 'https://listlyassistant.herokuapp.com/',
+      github: 'https://github.com/destaneelg/project2',
     },
-    { image: '', title: 'Mackenzie', text: 'Here is my text' },
-    { image: '', title: 'Nate', text: 'Here is my text' },
-    { image: '', title: 'Luisa', text: 'Here is my text' },
-    { image: '', title: 'Madeline', text: 'Here is my text' },
+    {
+      image: 'portfolio/src/Assets/images/team-management.png',
+      title: 'Team Management Directory',
+      descriptionTitle: 'Description',
+      description:
+        'This application allows you to create an organized page of your team including their Name, Title, and contact information.',
+      technologiesTitle: 'Technologies',
+      technologies: 'HTML 5, CSS, Bootstrap and JavaScript, Node.js',
+      link:
+        'https://www.youtube.com/watch?v=BYRczhnrzp0&feature=youtu.be&ab_channel=EmilyGallawayAguirre',
+      github: 'https://github.com/emgal-aguirre/team-management-directory',
+    },
+    {
+      image: 'portfolio/src/Assets/images/mock-sqaure.jpg',
+      title: 'Mock Agency Website',
+      descriptionTitle: 'Description',
+      description:
+        'This project is a simple and responsive design that may be used as a template for small agencies',
+      technologiesTitle: 'Technologies',
+      technologies: 'HTML 5, CSS, Bootstrap and JavaScript',
+      link: 'https://emgal-aguirre.github.io/mock-website/',
+      github: 'https://github.com/emgal-aguirre/mock-website',
+    },
+    {
+      image: 'portfolio/src/Assets/images/weather-sqaure.jpg',
+      title: 'Daily Weather Dashboard',
+      descriptionTitle: 'Description',
+      description:
+        'When a user searches a city’s current weather forecast appears including Temperature, Humidity, and Wind speed.',
+      technologiesTitle: 'Technologies',
+      technologies:
+        'HTML 5, CSS, Bootstrap and JavaScript, Moment.js and a Weather API',
+      link: 'https://emgal-aguirre.github.io/weather-dashboard/',
+      github: 'https://github.com/emgal-aguirre/weather-dashboard',
+    },
+    {
+      image: 'portfolio/src/Assets/images/quiz-sqaure.jpg',
+      title: 'Javascript quiz',
+      descriptionTitle: 'Description',
+      description:
+        'A user clicks to start the quiz. Upon starting the quiz a timer starts and for each question answered incorrectly, 10 points are deducted.',
+      technologiesTitle: 'Technologies',
+      technologies: 'HTML 5, CSS, Bootstrap and JavaScript',
+      link: 'https://emgal-aguirre.github.io/Code-Quiz/',
+      github: 'https://github.com/emgal-aguirre/Code-Quiz',
+    },
   ];
 
   const renderCard = (card, index) => {
@@ -29,10 +81,21 @@ const Projects = () => {
       <Card style={{ width: '18rem' }} key={index} className="box">
         <Card.Img variant="top" src="holder.js/100px180" src={card.image} />
         <Card.Body>
-          <Card.Title>{card.title}</Card.Title>
-          <Card.Text>{card.text}</Card.Text>
-          <Card.Text>{card.text}</Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Card.Title class="card-title blue">{card.title}</Card.Title>
+          <Card.Subtitle class="resume-discription left">
+            {card.descriptionTitle}
+          </Card.Subtitle>
+          <Card.Text class="left">{card.description}</Card.Text>
+          <Card.Subtitle class="resume-discription left">
+            {card.technologiesTitle}
+          </Card.Subtitle>
+          <Card.Text class="left">{card.technologies}</Card.Text>
+          <Card.Link href={card.link} target="_blank" class="card-link">
+            Check it Out
+          </Card.Link>
+          <Card.Link href={card.github} target="_blank" class="card-link">
+            Git Hub Repo
+          </Card.Link>
         </Card.Body>
       </Card>
     );
