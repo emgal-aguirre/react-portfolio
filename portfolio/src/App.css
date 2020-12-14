@@ -186,3 +186,83 @@ p {
 .card-link {
   font-size: 12px;
 }
+
+/* About section */
+
+.about {
+  background-color: aliceblue;
+  margin: 50px;
+}
+
+.headshot-name {
+  top: 250px;
+  right: 35%;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: black;
+  font-weight: bolder;
+}
+
+.solid-blue {
+  border-top: 3px solid #0d50ff;
+  margin-top: 40px;
+  width: 50%;
+}
+
+.title {
+  top: 380px;
+  right: 20%;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-top: 80px;
+  font-size: 14px;
+}
+
+.bio-card {
+  width: 175px;
+  height: 600px;
+  background-color: #f5ece7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  size: 40%;
+}
+
+.about-text {
+  max-width: 500px;
+  margin-right: 0px;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.resume-btn {
+  background-color: #0d50ff;
+  margin-top: 30px;
+  padding: 5px;
+  margin-left: 5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 12px;
+  font-size: smaller;
+  display: inline-block;
+}
+
+.project-btn {
+  background-color: white;
+  border: white;
+  margin-top: 30px;
+  padding: 5px;
+  margin-left: 5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 12px;
+  font-size: smaller;
+  display: inline-block;
+}
