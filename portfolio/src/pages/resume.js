@@ -14,11 +14,11 @@ function Resume() {
         <a
           href="../assets/emilyAguirreResume.pdf"
           download
-          class="btn resume-btn download"
+          class="btn btn-primary resume-btn"
           type="button"
           style={{ background: '#0d50ff' }}
         >
-          <small className="btn-text">download</small>
+          Button
         </a>
       </p>
       {/* eduction */}
