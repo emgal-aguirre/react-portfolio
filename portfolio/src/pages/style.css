@@ -57,5 +57,14 @@ small {
 }
 
 .headshot {
-  width: 10px;
+  border-radius: 50%;
+  top: 30px;
+  right: 20%;
+  margin-top: 40px;
+  margin-left: 130px;
+  margin-bottom: -30px;
+}
+
+.card-body {
+  margin-top: 20px;
 }

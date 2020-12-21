@@ -11,17 +11,21 @@ import headshot from '../Assets/images/Headshot_EGA.png';
 function About() {
   return (
     <Wrapper>
-      <div className="card resume-card mt-10">
+      <br></br>
+      <br></br>
+      <Card></Card>
+      <div className="card resume-card">
         <div className="card-body">
           <Card.Body>
+            <img
+              className="headshot center"
+              src={headshot}
+              style={{ borderradius: 50, maxWidth: 250 }}
+            ></img>
             <Card.Title class="name headshot-name">
               Emily <br></br>Aguirre
             </Card.Title>
-            <img
-              classname="headshot"
-              src={headshot}
-              style={{ borderradius: 50 }}
-            ></img>
+
             <p className="center">
               Hello, I'm Emily, a Front-end Developer <br></br>and designer
               based in Austin, Texas.
