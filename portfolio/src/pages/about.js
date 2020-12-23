@@ -31,6 +31,20 @@ function About() {
               based in Austin, Texas.
               <br />
               <br />I enjoy developing beautiful and functional websites.
+              <br></br>
+              <br></br>
+              <Card.Link
+                href="https://github.com/emgal-aguirre"
+                className="center"
+              >
+                Github
+              </Card.Link>
+              <Card.Link
+                href="https://www.linkedin.com/in/emgal-aguirre"
+                className="center"
+              >
+                Linkedin
+              </Card.Link>
             </p>
             <hr className="solid-blue" />
 
